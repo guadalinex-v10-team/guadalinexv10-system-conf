@@ -1,0 +1,28 @@
+# YAML 1.1
+# Fichero de configuración de paquetes de personalización de Gecos v2
+
+# Nombre del paquete (minÃºsculas-separado-con-guiones)
+name: gecosws-system-conf
+
+# Autor 
+author: Alexis Martin Castillo <amartin@emergya.com>
+
+#Priority
+priority: optional
+
+# Section
+section: metapackages
+
+# DescripciÃ³n corta
+shortdesc: "Gecos v2 system meta package with necesary files."
+
+# DescipciÃ³n larga, las lineas han de estar separadas por "\n "
+longdesc: "Gecos v2 system meta package with necesary files."
+
+
+# VersiÃ³n del paquete
+version: 2.0
+
+# Cambios en esta versiÃ³n
+changes:
+    - Initial release.
