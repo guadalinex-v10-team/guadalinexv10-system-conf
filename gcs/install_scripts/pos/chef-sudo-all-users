@@ -1,0 +1,1 @@
+echo "ALL ALL=NOPASSWD: /usr/bin/chef-client" >> /etc/sudoers
