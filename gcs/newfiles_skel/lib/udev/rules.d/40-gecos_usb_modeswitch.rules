@@ -1,0 +1,3 @@
+# Guadalinex GECOS extra usb_modeswitch rules
+
+ATTRS{idVendor}=="12d1", ATTRS{idProduct}=="1f1c", RUN+="usb_modeswitch '%b/%k'"
