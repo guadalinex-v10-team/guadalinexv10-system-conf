@@ -1,0 +1,10 @@
+# Vodafone Huawei ethernet networking
+
+DefaultVendor=0x12d1
+DefaultProduct=0x1f1c
+TargetVendor=0x12d1
+TargetProduct=0x1590
+MessageContent="55534243123456780000000000000011062000000101000100000000000000"
+HuaweiNewMode=1
+WaitBefore=5
+NoDriverLoading=1
