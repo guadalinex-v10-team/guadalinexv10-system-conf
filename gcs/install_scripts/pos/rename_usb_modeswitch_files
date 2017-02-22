@@ -1,9 +1,0 @@
-
-# In Windows filesystems a file name can not contain ":" character
-# so use "_" character and rename usb_modeswitch files 
-cd /etc/usb_modeswitch.d
-for f in *_*
-do 
- dest=`echo $f | sed 's/_/:/g'`
- mv $f $dest
-done
